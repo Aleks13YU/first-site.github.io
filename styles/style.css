@@ -1,0 +1,28 @@
+html {
+  font-size: 10px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+  font-family: placeholder: Dancing Script
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: black;
+}
+p {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: green;
+}
+ol,
+li {
+  color: brown;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+a {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: red;
+}
