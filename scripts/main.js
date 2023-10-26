@@ -12,13 +12,13 @@ var myHeading = document.querySelector("h1");
 function setUserName() {
   var myName = prompt("Please enter your name.");
   localStorage.setItem("name", myName);
-  myHeading.textContent = "NEW PROJECT Юферев А.В., " + myName;
+  myHeading.textContent = "NEW PROJECT, " + myName;
 }
 if (!localStorage.getItem("name")) {
   setUserName();
 } else {
   var storedName = localStorage.getItem("name");
-  myHeading.textContent = "NEW PROJECT Юферев А.В., " + storedName;
+  myHeading.textContent = "NEW PROJECT, " + storedName;
 }
 myButton.onclick = function () {
   setUserName();
