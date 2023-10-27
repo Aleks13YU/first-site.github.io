@@ -20,7 +20,7 @@ img {
 h1 {
   margin: 0;
   padding: 5px 0;
-  color: #050505;
+  color: #079113;
   font-size: 70px;
   text-align: center;
   text-shadow: 1px 1px 1px black;
@@ -31,7 +31,7 @@ li {
   font-size: 30px;
   line-height: 2;
   letter-spacing: 1px;
-  color: #079113;
+  color: #050505;
   text-align: center;
 }
 a {
